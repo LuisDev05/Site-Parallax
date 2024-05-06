@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     color: #242424;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
@@ -95,4 +95,42 @@ section.module.parallax h1{
     font-size: 78px;
     z-index: 50;
     text-transform: uppercase;
+}
+
+.area-1, .area-2, .area-3{
+    visibility: hidden;
+}
+
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+       
+}
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+    
+    
+}
+
+img{
+    width: 50px;
+    
+    
 }
