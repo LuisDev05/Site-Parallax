@@ -102,11 +102,13 @@ section.module.parallax h1{
 }
 
 header{
-    background-color: antiquewhite;
+    background-color: blanchedalmond;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: fixed;
+    height: 60px;
     top: 0;
     left: 0;
     width: 100%;
@@ -123,6 +125,7 @@ header{
 
 
 li{
+    color: #000;
     display: inline-block;
     margin: 20px;
     
